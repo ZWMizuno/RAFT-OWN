@@ -27,6 +27,11 @@ You can demo a trained model on a sequence of frames
 python demo.py --model=models/raft-things.pth --path=demo-frames
 ```
 
+在demo-video.py里面设置视频绝对路径（也可以在当前文件夹进行推理并保存视频，运行文件：）
+```Shell
+python demo.py --model=models/raft-things.pth --video_path=1.mp4 --save_path=res_1.mp4
+```
+
 ## Required Data
 To evaluate/train RAFT, you will need to download the required datasets. 
 * [FlyingChairs](https://lmb.informatik.uni-freiburg.de/resources/datasets/FlyingChairs.en.html#flyingchairs)
