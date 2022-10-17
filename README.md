@@ -29,7 +29,7 @@ python demo.py --model=models/raft-things.pth --path=demo-frames
 
 在demo-video.py里面设置视频绝对路径（也可以在当前文件夹进行推理并保存视频，运行文件：）
 ```Shell
-python demo.py --model=models/raft-things.pth --video_path=1.mp4 --save_path=res_1.mp4
+python demo-video.py --model=models/raft-things.pth --video_path=1.mp4 --save_path=res_1.mp4
 ```
 
 ## Required Data
